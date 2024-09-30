@@ -7,7 +7,7 @@ These projects are for educational purposes, where I practice cloning interfaces
 
 | Project Name | Deployment Link |
 |--------------|-----------------|
-| Video Player (spotify theme)   | [Link](https://663a599356923e1d1824d773--video-player-like-spotify.netlify.app/)       |
+| Audio Player   | [Link](https://663a599356923e1d1824d773--video-player-like-spotify.netlify.app/)       |
 | Project 2    | [Link](#)       |
 | Project 3    | [Link](#)       |
 | ...          | ...             |
