@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  height: 100vh;
+  /* background: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.logo-spotify {
+  max-width: 90px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.card {
+  width: 300px;
+  height: 123px;
+  background: #1ed760;
+  overflow: hidden;
+  margin-bottom: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.circle-img {
+  background-image: url("/assets/background.png");
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inner-circle {
+  height: 140px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 140px;
+  /* background: red; */
+  border-radius: 100%;
+  background: #1ed760;
+}
+
+.controls {
+  justify-self: end;
+  align-self: center;
+  display: flex;
+}
+
+.next-song {
+  transform: rotate(180deg);
+}
+
+.progress-bar {
+  width: 240px;
+  background: #d2f7df;
+  height: 4px;
+  cursor: pointer;
+}
+
+.total-progress {
+  width: 0;
+  height: 4px;
+  background: #ffffff;
+}
+
+audio {
+  display: none;
+}
+
+.play-btn {
+  width: 400px;
+}
+
+.btn-play path {
+  fill: #fff;
+}
+
+.btn-play {
+  width: 40px;
+}
+
+.controls * {
+  cursor: pointer;
+}
+
+.pause {
+  display: none;
+}
